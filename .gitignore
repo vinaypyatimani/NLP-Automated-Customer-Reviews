@@ -1,2 +1,39 @@
-# Data files
+# Data files (download from Kaggle, see README)
+datasets/
 *.csv
+# Small Task 3 output that app.py needs
+!category_recommendation_articles.csv
+
+# Model weights and training checkpoints (~500 MB each)
+models/
+model/
+roberta_amazon_sentiment/
+*.safetensors
+*.bin
+*.pt
+*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Gradio
+.gradio/
+flagged/
+
+# Secrets
+.env
+*.token
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

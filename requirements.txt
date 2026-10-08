@@ -1,0 +1,21 @@
+# Data handling, baseline model and clustering (Tasks 1–2)
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+
+# Transformers: RoBERTa fine-tuning (Task 1) and Qwen generation (Task 3)
+torch
+transformers>=4.46
+datasets
+accelerate
+safetensors
+huggingface_hub
+
+# Web app and dashboard (Task 4, Bonus 1, app.py)
+gradio>=5.0
+plotly
+
+# Optional: running the notebooks locally in VS Code / Jupyter
+# ipykernel
